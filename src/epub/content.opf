@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dashiell-hammett/continental-op-stories</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-02-11T21:15:55Z</dc:date>
+		<meta property="dcterms:modified">2026-02-11T21:15:55Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,17 +40,19 @@
 		<meta property="term" refines="#subject-3">sh2008111424</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta id="collection-1" property="belongs-to-collection">Continental Op</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of short stories about an unnamed agent of a detective agency in the early 1920’s.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Before there was &lt;a href="https://standardebooks.org/ebooks/dashiell-hammett/the-maltese-falcon"&gt;Sam Spade&lt;/a&gt;, before there was Nick Charles, there was the unnamed operative in the Continental Detective Agency. It was the Continental Op that established &lt;a href="https://standardebooks.org/ebooks/dashiell-hammett"&gt;Dashiel Hammett’s&lt;/a&gt; reputation, through a series of twenty-eight stories and two novels he wrote in the mid to late 1920’s.&lt;/p&gt;
-			&lt;p&gt;The Continental Op was of below-average height and above-average weight but was willing and able to mix it up with whatever ruffians he encountered on his assignments. Those assignments often looked benign when they began, but usually turned sinister in a hurry. Although based in San Francisco, the Op’s assignments took him all over California (“The Golden Horseshoe,” “The Gutting of Couffignal”), to Arizona (“Corkscrew”), and even to the Balkans (“This King Business”). Where the Op excelled was at listening to a client, witness, or perpetrator and identifying the inconsistencies and holes in their statements, inconsistencies and holes that Hammett’s readers rarely noticed until the Op pointed them out later on in the story.&lt;/p&gt;
-			&lt;p&gt;The Continental Op stories, with two exceptions, originally appeared exclusively in &lt;i&gt;Black Mask&lt;/i&gt;, a pulp magazine begun in 1920 that also launched the careers of Raymond Chandler, Erle Stanley Gardner, and others.&lt;/p&gt;
+			&lt;p&gt;Before there was &lt;a href="https://standardebooks.org/ebooks/dashiell-hammett/the-maltese-falcon"&gt;Sam Spade&lt;/a&gt;, before there was Nick Charles, there was the unnamed operative in the Continental Detective Agency: the &lt;a href="https://standardebooks.org/collections/continental-op"&gt;Continental Op&lt;/a&gt;. It was the Continental Op that, through a series of twenty-eight stories and two novels written in the mid to late 1920’s, established &lt;a href="https://standardebooks.org/ebooks/dashiell-hammett"&gt;Dashiel Hammett’s&lt;/a&gt; reputation as one of the finest crime writers of the century.&lt;/p&gt;
+			&lt;p&gt;The Continental Op is of below-average height and above-average weight, but is willing and able to mix it up with whatever ruffians he encounters on his assignments. Those assignments often look benign at first, but turn sinister in a hurry. Although based in San Francisco, the Op’s assignments take him all over California (“The Golden Horseshoe,” “The Gutting of Couffignal”), to Arizona (“Corkscrew”), and even to the Balkans (“This King Business”). Where the Op excels is at listening to a client, witness, or perpetrator, and identifying the inconsistencies and holes in their statements—inconsistencies and holes that readers rarely notice until the Op points them out.&lt;/p&gt;
+			&lt;p&gt;The Continental Op stories, with two exceptions, originally appeared in &lt;i&gt;Black Mask&lt;/i&gt;, the pulp magazine started in 1920 that also launched the careers of Raymond Chandler, Erle Stanley Gardner, and other legendary crime writers.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<meta property="se:production-notes">There are no public domain scans available for the stories. This edition was transcribed from the stories in "The Big Book of the Continental Op," which contains the original text of the stories as printed in the magazines, mostly Black Mask, of the time.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">There are no public domain scans available for these stories. This edition was transcribed from the stories in _The Big Book of the Continental Op_ (Vintage Crime/Black Lizard 2017), which contains the original first edition text of the stories as printed in the magazines, mostly _Black Mask_.</meta>
+		<meta property="se:word-count">310818</meta>
+		<meta property="se:reading-ease.flesch">83.25</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Continental_Op</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dashiell-hammett_continental-op-stories</meta>
 		<dc:creator id="author">Dashiell Hammett</dc:creator>
@@ -75,6 +77,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
