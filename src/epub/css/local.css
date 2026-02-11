@@ -68,14 +68,20 @@ q{
 
 #the-scorched-face-3 blockquote header{
 	font-variant: small-caps;
-	font-weight: bold;
 	margin-bottom: 1em;
 }
 
 #the-girl-with-the-silver-eyes-5 blockquote p,
 #the-golden-horseshoe-6 blockquote p{
 	text-align: center;
+}
+
+#the-girl-with-the-silver-eyes-5 blockquote p{
 	text-indent: 0;
+}
+
+#the-girl-with-the-silver-eyes-5 blockquote p span{
+	font-variant: normal;
 }
 
 #the-golden-horseshoe-5 blockquote header{
