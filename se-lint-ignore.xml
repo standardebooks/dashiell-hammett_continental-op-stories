@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="bodies-piled-up.xhtml">
 		<ignore code="t-017">
+			<line>66</line>
 			<reason>The question mark is part of the play title.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
 		<ignore code="m-064">
+			<line>48</line>
 			<reason>It is a character in the link, not the book name itself.</reason>
 		</ignore>
 	</file>
