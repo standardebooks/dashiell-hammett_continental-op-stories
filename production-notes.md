@@ -1,0 +1,1 @@
+There are no public domain scans available for these stories. This edition was transcribed from the stories in _The Big Book of the Continental Op_ (Vintage Crime/Black Lizard 2017), which contains the original first edition text of the stories as printed in the magazines, mostly _Black Mask_.
